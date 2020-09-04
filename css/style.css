@@ -19,7 +19,22 @@ li{
 }
 
 .main-logo img{
-    width: 45%;
+    width: 30%;
+}
+.main-logo a{
+    text-decoration: none;
+}
+.brand-name {
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+   
+    text-align: center;
+    font-size:24px;
+   
+    
+
 }
 .menu-area ul{
     float: right;
@@ -28,14 +43,8 @@ li{
     display: flex;
     text-align: right;
 }
-.login-icon{
-    color: gray;
-}
-.header-top-menu li{
-    margin-left: 30px;
 
-   
-}
+
 .header-top-menu li a{
     
     font-weight: 500;
@@ -45,47 +54,57 @@ li{
 }
 .header-top-menu li a h6{
     color: hsl(358, 85%, 52%);
-    font-size: 23px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 600;
 }
 .header-top-menu li p{
     margin-top: 10px;
+    margin-right: 5px;
+}
+.user-area {
+    text-align: center;
+}
+.login a,.logout a{
+    text-decoration: none;
+    color:#fff;
+    margin-top:5px;
+    display: block;
+
 }
 /* Header Top End */
 
 .header-bottom{
     background-color: #ff6200;
-    padding-top: 20px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-bottom: 8px solid #ec5b00;
+  
 }
 
-.brand-name h3{
-    color: #fff;
-    font-weight: 700;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    line-height: 41px;
-    text-align: center;
-    
 
-}
+
 .header-bottom ul{
-    float: right;
-    line-height: 41px
+   
+    line-height: 57px;
+    text-align: center;
 }
 .header-bottom-service-menu{
     display: flex;
-    text-align: right;
+    text-align: center;
+    margin:0 auto;
 }
 .header-bottom-service-menu li{
-    margin-left: 30px;
+    margin-right: 16px;
+    margin-left: 16px;
     font-size: 17px;
     font-weight: 600;
+    
    
     
    
 }   
+
+
 .header-bottom-service-menu li a{
     color: #fff;
     display: block;
@@ -391,7 +410,88 @@ li{
     margin-bottom: 30px;
 }
 
+/* Responsive part */
 
+@media (max-width: 575.98px) { 
+    .header-top{
+        background-color: #2d2520;
+        padding-top: 15px; 
+        padding-bottom: 10px;
+        
+    }
+    
+    .main-logo img{
+        width: 20%;
+    }
+    .menu-area ul{
+        width: 70%;
+        margin-top:-55px;
+        
+        
+       
+    }
+    .header-contact p{
+        font-size: 15px;
+    }
+    .login-logout{
+        display:none;
+    }
+    .call-center-img{
+        display:none;
+    }
+    /* Header bottom */
+    .header-bottom{
+        background-color: #ff6200;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        border-bottom: 8px solid #ec5b00;
+    }
+    .brand-responsive{
+        display: inline-block;
+    }
+    .brand-name h3{
+        color: #fff;
+        font-weight: 700;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        line-height: 41px;
+        text-align: left;
+        font-size:20px;
+        
+        
+    
+    }
+    .header-bottom ul{
+        float: right;
+        line-height: 41px
+    }
+    .header-bottom-service-menu{
+        display: flex;
+        text-align: right;
+    }
+    .header-bottom-service-menu li{
+        margin-left: 30px;
+        font-size: 17px;
+        font-weight: 600;
+       
+        
+       
+    }   
+    .header-bottom-service-menu li a{
+        color: #fff;
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .header-bottom-service-menu li a:hover{
+        color:#2d2520;
+    }
+
+    
+    
+ }
 
 
 
