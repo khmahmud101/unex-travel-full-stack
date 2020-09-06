@@ -118,13 +118,14 @@ li{
 }
 
 .slider-area {
-    
+   
     overflow: hidden;
 }
 .slider-area img{
   
-    height: 600px;
-    width: 100%;
+  height: 600px;
+   
+   
 }
 .slider-area{
     position: relative;
@@ -414,84 +415,248 @@ li{
 
 @media (max-width: 575.98px) { 
     .header-top{
-        background-color: #2d2520;
-        padding-top: 15px; 
+        
+        padding-top: 10px; 
         padding-bottom: 10px;
         
     }
-    
+    .main-logo{
+        text-align: center;
+    }
     .main-logo img{
-        width: 20%;
+        width: 30%;
+       
     }
     .menu-area ul{
-        width: 70%;
-        margin-top:-55px;
+        
+      float: left;
+      margin-left: 70px;
+      margin-top:20px;
         
         
        
-    }
-    .header-contact p{
-        font-size: 15px;
-    }
-    .login-logout{
-        display:none;
-    }
-    .call-center-img{
-        display:none;
-    }
-    /* Header bottom */
-    .header-bottom{
-        background-color: #ff6200;
-        padding-top: 20px;
-        padding-bottom: 15px;
-        border-bottom: 8px solid #ec5b00;
-    }
-    .brand-responsive{
-        display: inline-block;
-    }
-    .brand-name h3{
-        color: #fff;
-        font-weight: 700;
-        font-family: 'Oswald', sans-serif;
-        text-transform: uppercase;
-        line-height: 41px;
-        text-align: left;
-        font-size:20px;
-        
-        
+}
+.slider-area img{
+    height:300px
+}
+.why-different-title::after{
+    width: 0;
+}
+.subscribe input{
+   
+  
+    width: 300px;
     
+    margin-left:-70px;
+    
+}
+.footer-top h4{
+    text-align: center;
+}
+.about-short p{
+    text-align: center;
+    margin-bottom:15px;
+}
+.about ul{
+    text-align: center;
+    margin-bottom:15px;  
+}
+.legal-support ul{
+    text-align: center;
+    margin-bottom:15px;
+}
+.social ul{
+    margin-left:120px;
+    
+}
+}
+
+@media (max-width: 775.98px) { 
+    .header-top{
+        
+        padding-top: 10px; 
+        padding-bottom: 10px;
+        
     }
-    .header-bottom ul{
-        float: right;
-        line-height: 41px
+    .main-logo{
+        text-align: center;
     }
-    .header-bottom-service-menu{
-        display: flex;
-        text-align: right;
-    }
-    .header-bottom-service-menu li{
-        margin-left: 30px;
-        font-size: 17px;
-        font-weight: 600;
+    .main-logo img{
+        width: 30%;
        
+    }
+    .menu-area ul{
+        
+      float: left;
+      margin-left: 70px;
+      margin-top:20px;
+        
         
        
-    }   
-    .header-bottom-service-menu li a{
-        color: #fff;
-        display: block;
-        text-align: center;
-        text-transform: uppercase;
-        text-decoration: none;
-        cursor: pointer;
+}
+.slider-area img{
+    height:400px
+}
+.why-different-title::after{
+    width: 0;
+}
+.middle>img{
+    height: 311px;
+}
+.right img{
+    height:230px;
+}
+.subscribe input{
+   
+  
+    width: 300px;
+    
+    margin-left:-50px;
+    
+}
+.footer-top h4{
+    text-align: center;
+}
+.about-short p{
+    text-align: center;
+    margin-bottom:15px;
+}
+.about ul{
+    text-align: center;
+    margin-bottom:15px;  
+}
+.legal-support ul{
+    text-align: center;
+    margin-bottom:15px;
+}
+.social ul{
+    margin-left:140px;
+    
+}
+}
+
+@media (max-width: 975.98px) { 
+    
+    
+    .main-logo img{
+        width: 40%;
+       
     }
-    .header-bottom-service-menu li a:hover{
-        color:#2d2520;
+    .brand-name{
+        font-weight: 700; 
+        font-size: 14px;
+    }
+    .menu-area ul{
+        
+      float: left;
+   }
+ 
+   
+.slider-area img{
+    height:400px
+}
+.why-different-title::after{
+    width: 0;
+}
+.middle>img{
+    height: 450px;
+}
+.right img{
+    height:170px;
+}
+.schedule-content img{
+    width: 100%;
+    height: 50px;
+}
+.date{
+    text-align: justify;
+    margin-left:0;
+    
+}
+.date h5{
+    
+   
+    font-size:13px;
+}
+.date p{
+    
+   
+    font-size:13px;
+}
+.subscribe input{
+   
+  
+    width: 300px;
+    
+    
+    
+}
+.footer-top h4{
+    text-align: center;
+    font-size:17px
+}
+
+
+.social ul a{
+    font-size:30px;
+    
+}
+}
+
+@media (max-width: 1100.98px) { 
+    
+    
+    .main-logo img{
+        width: 40%;
+       
+    }
+    .brand-name{
+        font-weight: 700; 
+        font-size: 18px;
     }
 
+    .header-bottom-service-menu  li{
+        margin-left:10px;
+        margin-right:10px;
+        font-size:16px;
+
+    }
+
+   
+    
+ 
+   
+.slider-area img{
+    height:500px
+}
+.why-different-title::after{
+    width: 0;
+}
+.middle>img{
+    height: 450px;
+}
+.right img{
+    height:185px;
+}
+
+.subscribe input{
+   
+  
+    width: 300px;
     
     
- }
+    
+}
+
+
+
+.social ul a{
+    font-size:30px;
+    
+}
+}
+    
+   
 
 
 
